@@ -1,0 +1,52 @@
+.root {
+    -fx-background-color: linear-gradient(to bottom right, #fff0f5, #fdf6f9);
+    -fx-font-family: "Segoe UI", Arial;
+}
+
+/* TITULOS */
+.label {
+    -fx-text-fill: #5c4a5a;
+    -fx-font-size: 13px;
+    -fx-font-weight: 600;
+}
+
+/* CAMPOS */
+.text-field, .date-picker, .combo-box, .text-area {
+    -fx-background-color: white;
+    -fx-border-color: #f3c6d8;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-padding: 6 10 6 10;
+    -fx-text-fill: #4a3b4a;
+}
+
+/* BOTONES */
+.button {
+    -fx-background-color: linear-gradient(to right, #f7a8c4, #f28bb4);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 12px;
+    -fx-padding: 6 15 6 15;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #f06fa1;
+}
+
+/* TABLA */
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #f3c6d8;
+    -fx-border-radius: 10px;
+}
+
+.table-view .column-header {
+    -fx-background-color: #f7d6e0;
+    -fx-text-fill: #5c4a5a;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell:filled:selected {
+    -fx-background-color: #ffd6e7;
+}
